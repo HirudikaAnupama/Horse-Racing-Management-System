@@ -1,0 +1,14 @@
+#barChart {
+    -fx-background-color: transparent; /* Transparent background */
+}
+
+
+
+/* Styling the bars */
+.chart-bar {
+    -fx-bar-fill: #ff7676; /* Bar fill color */
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent; /* Transparent background inside the chart */
+}

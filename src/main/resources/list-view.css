@@ -1,0 +1,19 @@
+.list-view {
+    -fx-background-color: #e4b7b7; /* Background color */
+    -fx-font-family: "Book Antiqua"; /* Font family */
+    -fx-font-size: 20px; /* Font size */
+    -fx-padding: 10; /* Padding */
+
+}
+
+.list-view .list-cell {
+    -fx-padding: 5 10; /* Padding inside each cell */
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #eed9d9; /* Hover color */
+}
+
+.list-view .cell {
+    -fx-background-color: transparent; /* Cell background color */
+}

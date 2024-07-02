@@ -1,0 +1,29 @@
+/* Base style for the button */
+.buttonForImageUpload {
+    -fx-background-color: rgba(225, 86, 86, 0); /* Green */
+    -fx-text-fill: #c45454;
+    -fx-font-size: 20px;
+    -fx-font-family: Titillium Web;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-underline: true; /* Underline text */
+    -fx-font-style: italic; /* Italicize text */
+
+
+}
+
+/* Hover effect */
+.buttonForImageUpload :hover {
+    -fx-background-color: #d04646; /* Darker Green */
+    -fx-text-fill: #000000;
+    -fx-scale-x: 1.1;              /* Scale up the button on hover */
+    -fx-scale-y: 1.1;              /* Scale up the button on hover */
+
+
+}
+
+/* Hover effect for pressed state */
+.buttonForImageUpload :pressed {
+    -fx-background-color: #a83232; /* Even Darker Green */
+
+}

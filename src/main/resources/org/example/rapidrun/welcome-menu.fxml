@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1100.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.rapidrun.AddDetails">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="598.0" layoutY="-3.0" opacity="0.38" pickOnBounds="true">
+         <image>
+            <Image url="@../../../img-1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="441.0" fitWidth="507.0" layoutX="597.0" layoutY="460.0" opacity="0.38" pickOnBounds="true">
+         <image>
+            <Image url="@../../../img-4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="463.0" fitWidth="507.0" layoutX="597.0" layoutY="-3.0" opacity="0.38" pickOnBounds="true">
+         <image>
+            <Image url="@../../../img-5.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="364.0" fitWidth="598.0" layoutX="-1.0" layoutY="537.0" opacity="0.38" pickOnBounds="true">
+         <image>
+            <Image url="@../../../img-6.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="363.0" layoutY="622.0" mnemonicParsing="false" onAction="#onMenuPageDisplay" opacity="0.8" prefHeight="59.0" prefWidth="150.0" stylesheets="@../../../button.css" text="Continue">
+         <font>
+            <Font name="Corbel" size="18.0" />
+         </font></Button>
+      <Label layoutX="108.0" layoutY="87.0" lineSpacing="20.0" prefHeight="441.0" prefWidth="884.0" text="Welcome to rapid run horse  racing management system" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Eras Bold ITC" size="82.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <input>
+                  <InnerShadow color="#932222" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Button layoutX="667.0" layoutY="622.0" mnemonicParsing="false" onAction="#onExit" opacity="0.8" prefHeight="59.0" prefWidth="150.0" stylesheets="@../../../button.css" text="Close">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

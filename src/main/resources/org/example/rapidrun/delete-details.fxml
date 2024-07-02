@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.rapidrun.DeleteDetails">
+    <children>
+
+        <ImageView fitHeight="900.0" fitWidth="313.0" opacity="0.75" pickOnBounds="true">
+            <image>
+                <Image url="@../../../Collage.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="67.0" layoutY="61.0" mnemonicParsing="false" onAction="#onAddDetails" prefHeight="60.0" prefWidth="180.0" styleClass="button2" stylesheets="@../../../button2.css" text="Add" />
+        <Button layoutX="67.0" layoutY="165.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" styleClass="button3" stylesheets="@../../../buttonForCurrentSection.css" text="Delete" />
+        <Button layoutX="67.0" layoutY="270.0" mnemonicParsing="false" onAction="#onUpdateDetails" prefHeight="60.0" prefWidth="180.0" styleClass="button2" stylesheets="@../../../button2.css" text="Update" />
+        <Button layoutX="67.0" layoutY="376.0" mnemonicParsing="false" onAction="#onViewDetails" prefHeight="60.0" prefWidth="180.0" styleClass="button2" stylesheets="@../../../button2.css" text="View" />
+        <Button layoutX="67.0" layoutY="475.0" mnemonicParsing="false" onAction="#onSaveDetails" prefHeight="60.0" prefWidth="180.0" styleClass="button2" stylesheets="@../../../button2.css" text="Save" />
+        <Button layoutX="67.0" layoutY="582.0" mnemonicParsing="false" onAction="#onRandomDetails" prefHeight="60.0" prefWidth="180.0" styleClass="button2" stylesheets="@../../../button2.css" text="Random" />
+        <Button layoutX="67.0" layoutY="680.0" mnemonicParsing="false" onAction="#onWinnerDetails" prefHeight="60.0" prefWidth="180.0" styleClass="button2" stylesheets="@../../../button2.css" text="Winners" />
+        <Button layoutX="67.0" layoutY="784.0" mnemonicParsing="false" onAction="#onExit" prefHeight="60.0" prefWidth="180.0" styleClass="button2" stylesheets="@../../../button2.css" text="Exit" />
+        <ImageView fitHeight="902.0" fitWidth="787.0" layoutX="313.0" layoutY="-2.0" opacity="0.15" pickOnBounds="true">
+            <image>
+                <Image url="@../../../background-1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="451.0" fitWidth="442.0" layoutX="313.0" opacity="0.05" pickOnBounds="true">
+            <image>
+                <Image url="@../../../img-1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="437.0" layoutY="537.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="451.0" fitWidth="442.0" layoutX="313.0" layoutY="451.0" opacity="0.15" pickOnBounds="true">
+            <image>
+                <Image url="@../../../img-4.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="536.0" fitWidth="342.0" layoutX="756.0" opacity="0.09" pickOnBounds="true">
+            <image>
+                <Image url="@../../../img-2.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="363.0" fitWidth="342.0" layoutX="755.0" layoutY="537.0" opacity="0.15" pickOnBounds="true">
+            <image>
+                <Image url="@../../../img-6.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="403.0" layoutY="53.0" text="Delete horse details">
+            <font>
+                <Font name="Eras Bold ITC" size="64.0" />
+            </font>
+            <effect>
+                <InnerShadow color="#c60000">
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="#d80000" />
+                     </light>
+                  </Lighting>
+               </input>
+                </InnerShadow>
+            </effect>
+        </Label>
+      <Button layoutX="617.0" layoutY="552.0" mnemonicParsing="false" onAction="#onDeleteAddedHorseDetails" prefHeight="60.0" prefWidth="180.0" styleClass="confirm" stylesheets="@../../../Confirm-button.css" text="Delete" />
+      <Label layoutX="495.0" layoutY="251.0" prefHeight="60.0" prefWidth="424.0" text="Enter the ID to delete" textFill="#6e0303">
+         <font>
+            <Font name="Algerian" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="DeleteHorseIdTextArea" alignment="CENTER" layoutX="579.0" layoutY="339.0" prefHeight="75.0" prefWidth="256.0" stylesheets="@../../../text-area.css" />
+      <Label fx:id="DeleteHorseMsgLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="452.0" layoutY="475.0" prefHeight="30.0" prefWidth="510.0" textAlignment="CENTER" textFill="#d00606">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+    </children>
+
+</AnchorPane>

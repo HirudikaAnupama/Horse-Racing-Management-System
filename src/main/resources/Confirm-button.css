@@ -1,0 +1,30 @@
+/* Base style for the button */
+.confirm {
+    -fx-background-color: #e37979; /* Green */
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+    -fx-font-family: Titillium Web;
+    -fx-padding: 10px 20px;
+
+    -fx-background-radius: 100px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(16, 16, 16, 0.77), 10, 0.5, 0, 3);
+
+}
+
+/* Hover effect */
+.confirm:hover {
+    -fx-background-color: #f16f6f; /* Darker Green */
+    -fx-text-fill: rgba(0, 0, 0, 0.91);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.86), 10, 0.5, 0, 3);
+    -fx-scale-x: 1.1;              /* Scale up the button on hover */
+    -fx-scale-y: 1.1;              /* Scale up the button on hover */
+
+
+}
+
+/* Hover effect for pressed state */
+.confirm:pressed {
+    -fx-background-color: #f67979; /* Even Darker Green */
+
+}

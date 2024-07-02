@@ -1,0 +1,4 @@
+Horse ID: 1, Horse Name: Name1, Jacky Name: Owner1, Age: 4, Breed: -, Race Record: -, Group: A
+Horse ID: 2, Horse Name: Name2, Jacky Name: Owner2, Age: 3, Breed: Non, Race Record: Non, Group: C
+Horse ID: 3, Horse Name: Name3, Jacky Name: Owner3, Age: 4, Breed: -, Race Record: -, Group: B
+Horse ID: 4, Horse Name: Name4, Jacky Name: Owner4, Age: 4, Breed: -, Race Record: -, Group: D
