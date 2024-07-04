@@ -152,3 +152,39 @@ A bar graph of winning horses by winning time can also be seen.
 - When entering a horse's name, only the horse's first name should be entered.
 - The names of the horses must be different.
 
+<br>
+
+## More information on functionality
+
+From these links, you can watch videos on how to run the program and how it works.
+
+- Youtube -
+- Tik tok -
+
+<br>
+
+## Key Features
+- Implementation of program using java.
+- Correct handling and use of Java Object Oriented Programming concepts.
+- build up rich user interface using javaFX.
+- Correctly building a code from scratch.
+
+<br>
+
+## Installation
+
+- **First of all you need to install git and java into your computer**.<br>
+- **Then open command prompt and select your project installation directory as below code,** <br>
+
+  _cd "At this point you must provide your directory"_ <br>
+   Eg : _cd desktop_
+- 
+
+
+<br>
+
+## Contact
+- Author: Hirudika Anupama
+- Email: hirudikaanupama4@gmail.com
+- GitHub: https://github.com/HirudikaAnupama
+
