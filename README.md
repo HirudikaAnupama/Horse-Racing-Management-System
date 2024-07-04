@@ -178,9 +178,17 @@ From these links, you can watch videos on how to run the program and how it work
 
   _cd "At this point you must provide your directory"_ <br>
    Eg : _cd desktop_
-- 
+  
+- **Then place this code. After executing this code the project is in the selected directory.** <br>
 
+   _git clone https://github.com/HirudikaAnupama/Horse-Racing-Management-System.git_
+  
+- **You can then run this program using the appropriate IDE.**
 
+   Eg : IntelliJ IDEA, Eclipse
+  
+- **The main class of this program is inside the src folder.**
+  
 <br>
 
 ## Contact
