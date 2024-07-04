@@ -159,7 +159,7 @@ A bar graph of winning horses by winning time can also be seen.
 From these links, you can watch videos on how to run the program and how it works.
 
 - Youtube -
-- Tik tok -
+- Tik tok - https://www.tiktok.com/@hirudika_anupama/video/7387829757083225360?lang=en
 
 <br>
 
