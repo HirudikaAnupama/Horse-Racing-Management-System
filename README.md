@@ -147,3 +147,8 @@ A bar graph of winning horses by winning time can also be seen.
 
 ## Introductions for usage
 
+- Only 20 horses details can be entered into this program. If you want to increase this value, you can update it inside the code algorithm.
+- If you have entered invalid details for the mandatory fields it will alert you by generating a message.
+- When entering a horse's name, only the horse's first name should be entered.
+- The names of the horses must be different.
+
